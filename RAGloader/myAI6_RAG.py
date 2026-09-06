@@ -165,7 +165,7 @@ class PipelineConfig:
 
     # Pinecone
     pinecone_index_host: str = ""
-    pinecone_index_name: str = "myAI6"  # needed for backups/restores (control plane uses names, not hosts)
+    pinecone_index_name: str = "myai6"  # needed for backups/restores (control plane uses names, not hosts)
 
     # LLM (text enrichment + propositions)
     llm_model: str = "claude-sonnet-5"
